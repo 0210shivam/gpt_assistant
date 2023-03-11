@@ -1,11 +1,9 @@
-import Header from './components/header/index';
-import Hero from './components/hero';
+import Landing from './pages/Landing';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
+      <Landing />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
    return (
       <>
-         <div className="flex justify-between p-5 shadow">
+         <div className="flex justify-between p-5 shadow sticky top-0">
             <div id='logo' className='p-1 font-bold'>
                GPT Assistant
             </div>
@@ -23,4 +23,7 @@ export default function Header() {
 
 // *Logo
 // *Search Bar
-// *Avatar 
+// *Avatar
+
+// ?
+// TODO : Change the z-index for this.
