@@ -52,7 +52,7 @@ export default function Chat() {
                   <div className='p-6 w-16 border border-solid'>
                      1
                   </div>
-                  <div className='p-6 border border-solid w-[1010px]'>
+                  <div className='p-6 border border-solid w-48 md:w-96'>
                      Chat Title
                   </div>
                </div>
@@ -63,7 +63,7 @@ export default function Chat() {
                      Enhanced
                   </div>
 
-                  <div id='InputChat' className='p-2 w-[840px] border border-solid'>
+                  <div id='InputChat' className='p-2 w-20 md:w-[820px] border border-solid'>
                      Input UI
                   </div>
 
